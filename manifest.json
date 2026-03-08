@@ -1,0 +1,27 @@
+{
+    "schema_version": "1.0",
+    "repo_id": "se-zoo-adv-force-estimation",
+    "group": "advanced-topics",
+    "category": "force-estimation",
+    "label": "Force Estimation",
+    "color_accent": "#da3633",
+    "items": [
+        {
+            "id": "contact-force",
+            "module_id": "E08",
+            "name": "Contact Force Estimation",
+            "short_description": "External contact forces can be inferred from the discrepancy between predicted and observed motion via the momentum observer.",
+            "group": "advanced-topics",
+            "category": "force-estimation",
+            "tags": ["contact", "force", "momentum-observer", "disturbance", "collision", "impedance"],
+            "year_introduced": 2003,
+            "key_paper": "De Luca & Mattone (2003)",
+            "complexity": "advanced",
+            "color_accent": "#da3633",
+            "robot": "Planar Leg",
+            "core_concept": "Momentum-based external force estimation",
+            "use_cases": ["Collision detection", "Force-controlled assembly", "Human-robot interaction"],
+            "related_items": ["sensor-fusion"]
+        }
+    ]
+}
